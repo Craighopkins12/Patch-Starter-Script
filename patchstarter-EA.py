@@ -194,7 +194,7 @@ def make_definition(args):
                         "and": True
                     },
                     {
-                        "name": "Application Version",
+                        "name": app_name,
                         "operator": "is",
                         "value": app_version,
                         "type": "extensionAttribute"
